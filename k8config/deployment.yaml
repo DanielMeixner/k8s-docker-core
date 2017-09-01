@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: core-server
-        image: dmxacrmaster-microsoft.io/docker-dotnetcore:latest
+        image: dmxacrmaster-microsoft.azurecr.io/docker-dotnetcore:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
